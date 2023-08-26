@@ -131,29 +131,41 @@ table {
 /* My Style */
 header {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  border: 1px solid black;
-}
-
-.homelogo {
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  background-color: lightcoral;
+  padding: 10px 100px 10px 50px;
 }
 
 .homelogo a img {
   width: 50px;
   height: 50px;
+  border-radius: 100%;
 }
 
-nav {
-  margin-top: 16px;
-  margin-right: 90px;
-}
-
-nav table tr td {
+li {
+  display: inline-block;
   box-sizing: border-box;
-  border: 1px solid black;
-  padding: 10px;
+  width: 120px;
+  height: 40px;
+  background-color: darkgoldenrod;
+  border-radius: 7px;
+}
+
+li > a {
+  font-family: "Arial";
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 12px 0px 16px 0px;
+}
+
+li > a:hover {
+  color: black;
+}
+
+li > a:active {
+  color: yellow;
 }
