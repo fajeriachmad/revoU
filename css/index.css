@@ -129,6 +129,13 @@ table {
 }
 
 /* My Style */
+.container {
+  width: 1366px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* Header Start*/
 header {
   display: flex;
   align-items: center;
@@ -143,6 +150,7 @@ header {
   border-radius: 100%;
 }
 
+/* Navbar Start */
 li {
   display: inline-block;
   box-sizing: border-box;
@@ -168,4 +176,126 @@ li > a:hover {
 
 li > a:active {
   color: yellow;
+}
+/* Navbar End */
+/* Header End */
+
+.banner {
+  width: 1366px;
+  height: 578px;
+  margin: auto;
+  background-image: url(https://cdn.webane.net/saudinesia/2021/10/6e852bdf-luar-angkasa.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: x-large;
+  text-shadow: 2px 5px 10px white;
+  padding: 50px 0px 0px 100px;
+}
+
+p {
+  font-family: Arial;
+  font-size: medium;
+  text-shadow: 2px 5px 10px white;
+  padding: 20px 0px 0px 100px;
+}
+
+.facility {
+  margin: auto;
+  padding: 100px 0px 100px 0px;
+  box-sizing: border-box;
+  background-color: chocolate;
+}
+
+.facilities {
+  font-family: Arial;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  padding: 0px 0px 0px 100px;
+}
+
+.heroicon > section > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  box-shadow: 5px 5px 6px black;
+}
+
+.heroicon {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px 0px 100px;
+}
+
+section > div > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section > div > section > span {
+  font-family: Arial;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  padding: 20px 0px 0px 0px;
+  text-shadow: 5px 5px 10px black;
+}
+
+.messageus {
+  font-family: Arial;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: 2px 5px 10px white;
+  padding: 50px 0px 0px 100px;
+}
+
+.forminput {
+  width: 50%;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  margin: 20px 0px 0px 100px;
+}
+
+.w25 {
+  width: 25%;
+}
+
+form > div > span {
+  padding-right: 10px;
+}
+
+.w75 {
+  width: 75%;
+  height: 30px;
+}
+
+#msgbox {
+  width: 75%;
+  height: 100px;
+}
+
+.submit {
+  width: 100%;
+  height: 30px;
+  margin: 20px 0px 0px 100px;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+#boxmsg {
+  align-items: flex-start;
 }
