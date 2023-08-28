@@ -259,6 +259,7 @@ section > div > section > span {
 .messageform {
   display: flex;
   padding: 0px 0px 100px 0px;
+  font-family: Arial;
 }
 
 .forminput {
@@ -305,7 +306,7 @@ input {
   align-items: flex-start;
 }
 
-.valueform {
+#valueform {
   width: 50%;
   height: 240px;
   border: 1px solid black;
