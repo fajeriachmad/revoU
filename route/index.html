@@ -91,7 +91,7 @@
         <section class="messageform" id="pesan">
           <!-- Input Form Start -->
           <div class="forminput">
-            <form action="" method="post" id="form">
+            <form action="" id="form">
               <div class="box">
                 <label for="name" class="w25">Nama</label>
                 <span>: </span>
@@ -103,26 +103,37 @@
                 <input type="date" name="date" id="date" class="w75" />
               </div>
               <div class="box">
-                <label for="date" class="w25">Jenis Kelamin</label>
+                <label for="gender" class="w25">Jenis Kelamin</label>
                 <span>: </span>
                 <div class="w75">
-                  <input type="radio" name="gender" id="man" />
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="man"
+                    value="Laki - laki"
+                  />
                   <label for="man">Laki - laki</label>
-                  <input type="radio" name="gender" id="woman" />
-                  <label for="man">Perempuan</label>
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="woman"
+                    value="Perempuan"
+                  />
+                  <label for="woman">Perempuan</label>
                 </div>
               </div>
               <div class="box" id="boxmsg">
                 <label for="msgbox" class="w25">Pesan</label>
                 <span>: </span>
-                <input
-                  type="text"
-                  name="date"
+                <textarea
+                  name="msgbox"
                   id="msgbox"
+                  cols="30"
+                  rows="10"
                   placeholder="Pesan"
-                />
+                ></textarea>
               </div>
-              <input type="submit" value="Submit" class="submit" id="submit" />
+              <button type="submit" class="submit" id="submit">Submit</button>
             </form>
           </div>
           <!-- Input Form End -->
