@@ -26,7 +26,7 @@
           <ul>
             <li class="home"><a href="index.html">Home</a></li>
             <li class="profile"><a href="profile.html">Our Profile</a></li>
-            <li class="achievement"><a href="#fasilitas">Achievement</a></li>
+            <li class="achievement"><a href="#fasilitas">Facilitaties</a></li>
             <li class="message"><a href="#pesan">Message Us</a></li>
           </ul>
         </nav>
@@ -80,7 +80,7 @@
                 src="https://img.myloview.com/stickers/allowance-money-people-icon-outline-allowance-money-people-vector-icon-for-web-design-isolated-on-white-background-700-221583184.jpg"
                 alt="fullyfundedimg"
               />
-              <span>Fuly Funded</span>
+              <span>Fully Funded</span>
             </section>
           </div>
         </section>
@@ -133,18 +133,20 @@
                   placeholder="Pesan"
                 ></textarea>
               </div>
-              <button type="submit" class="submit" id="submit">Submit</button>
+              <button type="submit" class="submit" id="submit" onclick="validateForm()">Submit</button>
             </form>
           </div>
           <!-- Input Form End -->
 
           <!-- Value Form Start -->
           <div id="valueform">
-            <p>Current time <span id="current_time"></span></p>
-            <p>Nama <span id="display-name"></span></p>
-            <p>Tanggal Lahir <span id="display-date"></span></p>
-            <p>Jenis Kelamin <span id="display-gender"></span></p>
-            <p>Pesan <span id="display-msg"></span></p>
+            <p>
+              Current time<span id="current_time"></span><br><br>  
+              Nama<span id="display-name"></span><br>
+              Tanggal Lahir<span id="display-date"></span><br>
+              Jenis Kelamin<span id="display-gender"></span><br>
+              Pesan<span id="display-msg"></span>
+            </p>
           </div>
           <!-- Value Form End -->
         </section>
@@ -160,5 +162,5 @@
     </div>
     <!-- Container End -->
   </body>
-  <script src="../script/script.js"></script>
+  <script src="../script/script.js" async></script>
 </html>
