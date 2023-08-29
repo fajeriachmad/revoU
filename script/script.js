@@ -5,7 +5,10 @@ function welcomePage() {
   hiname.innerHTML = inputName;
 }
 
+welcomePage();
+
 // Validasi Form
+function validateForm(){
 document.getElementById("form").addEventListener("submit", function (event) {
   event.preventDefault();
   const name = document.forms["form"]["name"].value;
@@ -27,3 +30,4 @@ document.getElementById("form").addEventListener("submit", function (event) {
     displayMsg.innerHTML = ` : ` + msg;
   }
 });
+}
