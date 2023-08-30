@@ -5,8 +5,6 @@ function welcomePage() {
   hiname.innerHTML = inputName;
 }
 
-// welcomePage();
-
 // Slide Image
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -54,3 +52,15 @@ function validateForm() {
     }
   });
 }
+
+//Hamburger Menu
+function showNav() {
+  const hamburger = document.querySelector(".hamburger-menu");
+  const nav = document.querySelector(".nav");
+
+  hamburger.addEventListener("click", () => {
+    nav.classList.toggle("on");
+  });
+}
+showNav();
+welcomePage();
