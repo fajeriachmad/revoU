@@ -1,33 +1,3 @@
-// Mengganti nama pada halaman home
-function welcomePage() {
-  const hiname = document.querySelector("#hiname");
-  const inputName = prompt("Masukkan nama anda");
-  hiname.innerHTML = inputName;
-}
-
-// Slide Image
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function currentDiv(n) {
-  showDivs((slideIndex = n));
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slideimages");
-  if (n > x.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = x.length;
-  }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex - 1].style.display = "block";
-}
-
 // Validasi Form
 function validateForm() {
   document.getElementById("form").addEventListener("submit", function (event) {
@@ -62,5 +32,4 @@ function showNav() {
     nav.classList.toggle("on");
   });
 }
-// welcomePage();
 showNav();
