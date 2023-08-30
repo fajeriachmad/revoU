@@ -62,5 +62,5 @@ function showNav() {
     nav.classList.toggle("on");
   });
 }
-// welcomePage();
+welcomePage();
 showNav();
