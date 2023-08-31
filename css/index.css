@@ -226,8 +226,14 @@ main {
 .image-list {
   width: 1366px;
   height: 578px;
+  object-fit: contain;
   margin: auto;
   padding: 30px 0px 30px 0px;
+}
+
+.slideimages {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .btnimg {
@@ -238,7 +244,15 @@ main {
   background-color: white;
 }
 
-#btn1 {
+.carousel-buttons {
+  position: absolute;
+  display: flex;
+  bottom: 10px;
+  gap: 10px;
+  left: 50%;
+}
+
+/* #btn1 {
   position: absolute;
   left: 700px;
   bottom: 50px;
@@ -252,7 +266,7 @@ main {
   position: absolute;
   left: 760px;
   bottom: 50px;
-}
+} */
 
 /* Image Slide Section End */
 /* Banner Section End */
@@ -550,8 +564,12 @@ h5 {
 
   .image-list {
     width: 100%;
-    height: 100%;
-    margin: auto;
+    height: auto;
+  }
+
+  .slideimages {
+    width: 100%;
+    aspect-ratio: 2.363/1;
   }
 
   .btnimg {
@@ -562,7 +580,12 @@ h5 {
     background-color: whitesmoke;
   }
 
-  #btn1 {
+  .carousel-buttons {
+    position: absolute;
+    top: 180px;
+  }
+
+  /* #btn1 {
     position: absolute;
     left: 210px;
     top: 280px;
@@ -576,7 +599,7 @@ h5 {
     position: absolute;
     left: 250px;
     top: 280px;
-  }
+  } */
   /* Banner Section End */
   /* Facilitis Section Start */
   .facility {
