@@ -13,11 +13,7 @@
       <header>
         <!-- Link Logo Start -->
         <section class="homelogo">
-          <a href=""
-            ><img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnChgy7Bt26ORf4AF1Pdei9rqmjJsFdjDfIDe8yy2ew&s"
-              alt="homelogo"
-          /></a>
+          <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnChgy7Bt26ORf4AF1Pdei9rqmjJsFdjDfIDe8yy2ew&s" alt="homelogo" /></a>
         </section>
         <!-- Link Logo End -->
 
@@ -53,30 +49,14 @@
             <p>ini adalah website pertama.</p>
           </div>
           <div class="image-list">
-            <img
-              src="asset/gambar4.jpg"
-              alt=""
-              width="100%"
-              height="100%"
-              class="slideimages"
-            />
-            <img
-              src="asset/gambar2.jpeg"
-              alt=""
-              width="100%"
-              height="100%"
-              class="slideimages"
-            />
-            <img
-              src="asset/gambar1.jpg"
-              alt=""
-              width="100%"
-              height="100%"
-              class="slideimages"
-            />
-            <button class="btnimg" id="btn1" onclick="currentDiv(1)"></button>
-            <button class="btnimg" id="btn2" onclick="currentDiv(2)"></button>
-            <button class="btnimg" id="btn3" onclick="currentDiv(3)"></button>
+            <img src="asset/gambar4.jpg" alt="" width="100%" height="100%" class="slideimages" />
+            <img src="asset/gambar2.jpeg" alt="" width="100%" height="100%" class="slideimages" />
+            <img src="asset/gambar1.jpg" alt="" width="100%" height="100%" class="slideimages" />
+            <div class="carousel-buttons">
+              <button class="btnimg" id="btn1" onclick="currentDiv(1)"></button>
+              <button class="btnimg" id="btn2" onclick="currentDiv(2)"></button>
+              <button class="btnimg" id="btn3" onclick="currentDiv(3)"></button>
+            </div>
           </div>
         </section>
         <!-- Banner End -->
@@ -87,11 +67,7 @@
           <div class="heroicon">
             <section>
               <div class="herowrap">
-                <img
-                  class="heroimg"
-                  src="asset/icon/chalkboard-user.svg"
-                  alt="teacherimg"
-                />
+                <img class="heroimg" src="asset/icon/chalkboard-user.svg" alt="teacherimg" />
               </div>
               <span>Profesional Instructor</span>
             </section>
@@ -103,31 +79,19 @@
             </section>
             <section>
               <div class="herowrap">
-                <img
-                  class="heroimg"
-                  src="asset/icon/briefcase.svg"
-                  alt="briefcase"
-                />
+                <img class="heroimg" src="asset/icon/briefcase.svg" alt="briefcase" />
               </div>
               <span>Job Connect</span>
             </section>
             <section>
               <div class="herowrap">
-                <img
-                  class="heroimg"
-                  src="asset/icon/laptop-code.svg"
-                  alt="laptopcode"
-                />
+                <img class="heroimg" src="asset/icon/laptop-code.svg" alt="laptopcode" />
               </div>
               <span>Real Study Cases</span>
             </section>
             <section>
               <div class="herowrap">
-                <img
-                  class="heroimg"
-                  src="asset/icon/users-alt.svg"
-                  alt="users-alt"
-                />
+                <img class="heroimg" src="asset/icon/users-alt.svg" alt="users-alt" />
               </div>
               <span>Network</span>
             </section>
@@ -156,41 +120,18 @@
                   <label for="gender" class="w25">Jenis Kelamin</label>
                   <span>: </span>
                   <div class="w75">
-                    <input
-                      type="radio"
-                      name="gender"
-                      id="man"
-                      value="Laki - laki"
-                    />
+                    <input type="radio" name="gender" id="man" value="Laki - laki" />
                     <label for="man">Laki - laki</label>
-                    <input
-                      type="radio"
-                      name="gender"
-                      id="woman"
-                      value="Perempuan"
-                    />
+                    <input type="radio" name="gender" id="woman" value="Perempuan" />
                     <label for="woman">Perempuan</label>
                   </div>
                 </div>
                 <div class="box" id="boxmsg">
                   <label for="msgbox" class="w25">Pesan</label>
                   <span>: </span>
-                  <textarea
-                    name="msgbox"
-                    id="msgbox"
-                    cols="30"
-                    rows="10"
-                    placeholder="Pesan"
-                  ></textarea>
+                  <textarea name="msgbox" id="msgbox" cols="30" rows="10" placeholder="Pesan"></textarea>
                 </div>
-                <button
-                  type="submit"
-                  class="submit"
-                  id="submit"
-                  onclick="validateForm()"
-                >
-                  Submit
-                </button>
+                <button type="submit" class="submit" id="submit" onclick="validateForm()">Submit</button>
               </form>
             </div>
             <!-- Input Form End -->
